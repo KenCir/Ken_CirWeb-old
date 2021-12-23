@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: azure;
+}
+
+.web-title {
+    margin: 20% 40%;
+}
+
+.profile h3 {
+    color: black;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.profile h3:before,
+.profile h3:after {
+    content: "";
+    flex-grow: 1;
+    height: 1px;
+    background: #444;
+    display: block;
+}
+
+.profile h3:before {
+    margin-right: 0.4em;
+}
+
+.profile h3:after {
+    margin-left: 0.4em;
+}
+
+.profile-naiyou {
+    margin: auto 30%;
+}
+
+.prifile-category {
+    margin: 3% auto;
+}
+
+.prifile-link-a {
+    margin: auto 1%;
+}
+
+.prifile-link li {
+    list-style: none;
+    float: left;
+}
