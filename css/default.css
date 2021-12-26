@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+/**
+全てに適用されるCSS
+**/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: azure;
+}
